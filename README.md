@@ -1,6 +1,33 @@
 # Membership-Data-Analysis-PowerBI
 Interactive Membership Analytics Dashboard built using Power BI to analyze region-wise membership, payable trends, and customer insights.
 
+Membership-Dashboard-PowerBI
+│
+├── Data
+│   └── membership_data.xlsx
+│
+├── Dashboard_Screenshots
+│   ├── membership_dashboard.png
+│   ├── Advanced Analysis 
+│   ├── membership_analysis.png
+│   ├── customer_information.png
+│   └── member_analysis.png
+│
+├── PowerBI_File
+│   └── Membership_Dashboard.pbix
+│
+├── Documentation
+│   └── project_overview.md
+│
+├── README.md
+└── LICENSE
+
+Explanation:
+Data → Excel dataset used in the project
+Dashboard_Screenshots → dashboard images (the ones you shared)
+PowerBI_File → .pbix Power BI file
+Documentation → detailed explanation
+
 # Membership Dashboard - Power BI
 
 ## Project Overview
@@ -10,7 +37,8 @@ The dashboard helps in understanding membership distribution, identifying top re
 
 ## Tools Used
 Power BI  
-Excel  
+Excel 
+Power Query
 Data Modeling  
 DAX  
 Data Visualization
@@ -28,20 +56,21 @@ Customer-level membership details
 ### 1. Membership Dashboard
 Shows region-wise membership distribution and payable trends.
 
-### 2. Membership Analysis
+### 2. Membership Dashboard
+Dispaly overview of membership distribution, member types, and customer payable trends across different years.
+
+### 3. Membership Analysis
 Displays customer information including member type, membership type, and payable details.
 
-### 3. Member Analysis
+### 4. Member Analysis
 Detailed member information with payable amount by year.
 
-### 4. Advanced Analysis
+### 5. Advanced Analysis
 Provides deeper insights into regional payable trends and customer data.
 
 ## Key Insights
 HO-MUM region has the highest membership count.
-
 Payable amounts show consistent growth from 2019 to 2023.
-
 ZASSOC membership type contributes the highest payable value.
 
 ## Dataset
@@ -55,9 +84,6 @@ Type of Firm
 Payable Amount  
 Year and Month
 
-## Screenshots
-Dashboard screenshots are available in the Dashboard_Screenshots folder.
-
 ## Author
 Preeti Oderiya  
-Business Intelligence Developer
+BI Developer
